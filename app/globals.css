@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(56, 189, 248, 0.15), transparent 55%),
+    radial-gradient(circle at bottom, rgba(249, 115, 22, 0.15), transparent 55%),
+    #020617;
+}
+
+a {
+  color: theme("colors.dokkan.accent");
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
